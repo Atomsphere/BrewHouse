@@ -22,6 +22,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BrewHouse.py" />
+    <Compile Include="fan.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="freezer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="component.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="heater.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pump.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sensor.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
